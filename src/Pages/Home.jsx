@@ -128,9 +128,9 @@ const Home = () => {
   
     <div className="Homebanner">
       
-      <div style={{paddingLeft:"60em", color:"red"}}>
-        <a >9876543210 &nbsp;&nbsp;
-        Vijayy876@gmail.com</a>
+      <div style={{paddingLeft:"65em"}}>
+        <a >7019372830 &nbsp;&nbsp; <br />
+        Vcontact@vprotecht.com</a>
         </div>
       <div className="grid-container">
         <div className="grid-item">
