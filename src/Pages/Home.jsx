@@ -55,11 +55,11 @@ const ExperienceSection = () => {
             {/* Feature List */}
             <div className="features">
               <div className="feature-item">
-                <i className="feature-icon">📜</i> {/* Replace with proper icon */}
+                <i className="feature-icon">📜</i> 
                 <h4>Flexible Insurance Plans</h4>
               </div>
               <div className="feature-item">
-                <i className="feature-icon">💸</i> {/* Replace with proper icon */}
+                <i className="feature-icon">💸</i> 
                 <h4>Money Back Guarantee</h4>
               </div>
             </div>
@@ -79,7 +79,6 @@ const ReasonsSection = () => {
   return (
     <div className="reasons-section">
       <div className="reasons-container">
-        {/* Left Section */}
         <div className="reasons-content">
           <h2>Few Reasons Why People Choosing Us!</h2>
           <p>
@@ -105,12 +104,6 @@ const ReasonsSection = () => {
               </div>
               <h4>Trusted by thousands </h4>
             </div>
-            {/* <div className="feature">
-              <div className="feature-icon">
-                <i className="fas fa-money-bill-wave"></i>
-              </div>
-              <h4>Money Saving</h4>
-            </div> */}
           </div>
         </div>
 
@@ -128,7 +121,7 @@ const Home = () => {
   
     <div className="Homebanner">
       
-      <div style={{paddingLeft:"65em"}}>
+      <div className="contact_det">
         <a >7019372830 &nbsp;&nbsp; <br />
         Vcontact@vprotecht.com</a>
         </div>
@@ -217,12 +210,13 @@ const Home = () => {
               alt="Life Insurance"
               className="life-icon"
             />
-            <h3>Job Less Coverage</h3>
+            <h3>Job Loss Coverage</h3>
             <p>
               Compliance-driven partnerships with technology in the forefront to
               take Insurance and allied products to the Underserved and
               unserved.
             </p>
+            <a href="/serivese"><button>Read More</button></a>
           </div>
           <div className="feature-card">
             <img
@@ -235,6 +229,7 @@ const Home = () => {
               Customized insurance, savings and pension plans ranging from
               Protection to Pension including Wellness for the chosen segment.
             </p>
+            <a href="/serivese"><button>Read More</button></a>
           </div>
           <div className="feature-card">
             <img
@@ -248,6 +243,8 @@ const Home = () => {
               relationships to ensure nationwide coverage through various
               partners with efficient technology utilization.
             </p>
+            <a href="/serivese"><button>Read More</button></a>
+
           </div>
         </div>
     
