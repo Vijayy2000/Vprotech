@@ -7,6 +7,7 @@ import disability from "../Assets/disability.png"
 import assin from "../Assets/assin.jpg"
 import lifr_insurance from "../Assets/life_insurance.png"
 import Footer from "../Footer";
+import About from "./About";
 
 
 const features = [
@@ -36,7 +37,7 @@ const features = [
 
 const ExperienceSection = () => {
   return (
-    <div className="experience-section">
+    <section id="experience-section">
       <div className="experience-container">
         
    
@@ -71,13 +72,13 @@ const ExperienceSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
 const ReasonsSection = () => {
   return (
-    <div className="reasons-section">
+    <section id="reasons-section">
       <div className="reasons-container">
         {/* Left Section */}
         <div className="reasons-content">
@@ -119,14 +120,14 @@ const ReasonsSection = () => {
           <img src={choose} alt="Professional Woman" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
 const Home = () => {
   return (
   
-    <div className="Homebanner">
+    <div class="Homebanner">
       
       <div style={{paddingLeft:"65em"}}>
         <a >7019372830 &nbsp;&nbsp; <br />
@@ -164,12 +165,15 @@ const Home = () => {
           <button className="primary">Click</button>
         </div>
       </div>
+      
+      <About/>
 
       <div className="footprint-container">
+     
         <div className="footprint">
           <h2>Our Foot Print</h2>
           <p>
-            MicroNsure has left an indelible mark since its inception in June
+           VproTecht has left an indelible mark since its inception in June
             2020, serving 8.1 million lives and winning National Start-up award.
             With a nationwide footprint, our growth trajectory continues to soar
             higher!
@@ -208,7 +212,7 @@ const Home = () => {
 
       <div className="why-choose-us">
         <h2 className="whytittle-choose">
-          Why MicroNsure Is Your Smart Choice?
+          Why VproTecht Is Your Smart Choice?
         </h2>
         <div className="features">
           <div className="feature-card">

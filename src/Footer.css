@@ -7,6 +7,8 @@
   .footer {
       background-color: #004658;
       color: #fff;
+      padding: 80px 20px;
+      
   }
   .footer-wave-svg {
       background-color: transparent;

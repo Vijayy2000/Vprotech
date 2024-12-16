@@ -6,8 +6,6 @@ import About from './Pages/About';
 import Serivese from './Pages/Serivese';
 import OurProduct from './Pages/OurProduct';
 import Contact from './Pages/Contact';
-import Feedback from 'react-bootstrap/esm/Feedback';
-import Footer from './Footer';
 
 const App = () => {
   return (
