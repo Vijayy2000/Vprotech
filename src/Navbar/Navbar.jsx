@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div >
       <div className="container indigo topLeftBorders">
-        <img className="image" src={logo} height="100px" width="100px" />
+        <img className="image" alt="logo" src={logo} height="100px" width="100px" />
         <div>
           <Link to="/">Home</Link>
           <a href="#about">About Us</a>
