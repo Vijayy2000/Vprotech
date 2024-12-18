@@ -131,7 +131,7 @@ const Home = () => {
       
       <div style={{paddingLeft:"65em"}}>
         <a >7019372830 &nbsp;&nbsp; <br />
-        Vcontact@vprotecht.com</a>
+        contact@vprotecht.com</a>
         </div>
       <div className="grid-container">
         <div className="grid-item">
